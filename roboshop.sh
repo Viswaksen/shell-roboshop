@@ -39,7 +39,7 @@ INSTANCE_ID=$(aws ec2 run-instances \
     ,"Changes": [{
       "Action"              : "UPSERT"
       ,"ResourceRecordSet"  : {
-        "Name"              : "'$instance'.$DOMAIN_NAME"
+        "Name"              : "'$instance'.'$DOMAIN_NAME'"
         ,"Type"             : "CNAME"
         ,"TTL"              : 120
         ,"ResourceRecords"  : [{
