@@ -1,7 +1,7 @@
 #! /bin/bash
 
 AMI_ID="ami-0220d79f3f480ecf5"
-SG_ID="sg-0d87e7256db5b1464-"
+SG_ID="sg-0d87e7256db5b1464"
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 ZONE_ID="Z07718462X47NRO5PVN2N"
 DOMAIN_NAME="viswak.shop"
